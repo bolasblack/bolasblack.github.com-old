@@ -24,7 +24,7 @@ tags: ["淘宝","开放平台", "api", "吐槽"]
 
 再加上淘宝 JSSDK 的 Demo 页面那种完全无法令人理解的界面和说明，我有理由相信这个一定是临时工干的对不对？
 
-想关资料：
+相关资料：
 
 * [淘宝API计算SIGN参数（error code:25 Invalid Signature）](http://my.oschina.net/ryanhoo/blog/86876)
 * [Github/laoqiu/sinaapp taobaoapi.py](https://github.com/laoqiu/sinaapp/blob/master/webapp/scripts/taobaoapi.py)
