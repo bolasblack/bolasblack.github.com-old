@@ -2,8 +2,8 @@
 layout: post
 title: "吐槽淘宝开放平台的API"
 description: ""
-category: "吐槽"
-tags: ["淘宝","开放平台", "api", "吐槽"]
+category: 吐槽
+tags: [淘宝, 开放平台, api, 吐槽]
 ---
 
 生平不知道第几次见到如此坑爹的 API ，全部都是国内公司出品。
