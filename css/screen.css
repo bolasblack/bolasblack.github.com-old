@@ -1,0 +1,199 @@
+/******************************
+/* Body styles 
+/******************************/
+body {
+	background: #fff;
+	color: #222222;
+	font-family: "Droid Serif", Georgia, Times, serif;
+	font-size: 15px;
+}
+a {
+	text-decoration: underline;
+	color: #444;
+}
+a:hover {
+	text-decoration: none;
+}
+#wrapper {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0;
+}
+.clear {
+	clear: both;
+	float: none;
+}
+
+h1 { font-size: 22px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+
+/******************************
+/* Media Queries 
+/******************************/
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	#wrapper { width: 95%; }
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+	#wrapper { width: 95%; }
+}
+
+/******************************
+/* Header 
+/******************************/
+#masterhead {
+	padding: 20px 0;
+	margin: 0 0 20px 0; 
+}
+#masterhead nav {
+	margin: 18px 0 0 0;
+	text-align: right;
+	float: right;
+}
+#masterhead nav a {
+	font-style italic;
+}
+#header {
+	text-align: left;
+	font-size: 42px;
+	float: left;
+	width: 100px;
+	margin: 0;
+}
+#header a {
+	text-decoration: none;
+}
+#header a:hover {
+	text-decoration: underline;
+}
+
+/******************************
+/* Post styling
+/******************************/
+
+.post {
+	padding: 10px 0 20px 0;
+	
+	line-height: 1.5em;
+	/*border-bottom: 5px solid #eee;*/
+}
+.single {
+	padding: 0;
+}
+.post header {
+	font-size: 14px;
+}
+.post header h2 {
+	font-size: 24px;
+	margin: 5px 0;
+	font-weight: normal;
+}
+.post header h2 a {
+	text-decoration: none;
+	color: #222222;
+	border-bottom: none;
+}
+.post header h2 a:hover {
+	border-bottom: none;
+}
+.post header a.link-post {
+	/* text-decoration: underline; */
+	color: #b5190e;
+	border-bottom: none;
+	font-weight: 200;
+}
+.post header h3 {
+	margin: 5px 0;
+	font-weight: normal;
+}
+.post header .date {
+	color: gray;
+	font-style: italic;
+}
+.post header a.permalink {
+	font-style: italic;
+	padding: 0 2px;
+}
+.post header a.permalink:hover {
+	text-decoration: none;
+}
+.post blockquote {
+	color: #696969;
+	border-left: 2px solid #D4D4D4;
+	
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	margin: 20px 15px;
+	padding: 0 20px;
+}
+.post a {
+	color: #b5190e;
+	text-decoration: none;
+}
+.post a:hover {
+	text-decoration: underline;
+}
+.post pre {
+	padding: 10px 40px;
+	margin: 20px;
+	background: #eee;
+	border-left: 5px solid #a3a3a3;
+	color: #000;
+}
+
+/******************************
+/* Related posts
+/******************************/
+
+#related-posts {
+	margin-bottom: 10px;
+}
+
+/******************************
+/* Archive
+/******************************/
+
+.posts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.posts a {
+	text-decoration: none;
+}
+.posts a:hover {
+	text-decoration: underline;
+}
+.posts .date {
+	color: gray;
+}
+
+/******************************
+/* Footer 
+/******************************/
+
+#footer {
+	font-size: 13px;
+	margin: 20px 0 0 0;
+	padding: 12px 0 12px 0;
+	border-top: 3px solid #eee;
+	line-height: 1.5em;
+}
+#footer .grid {
+	width: 30%;
+	float: left;
+}
+#footer .gridright {
+	width: 70%;
+	float: left;
+	text-align: right;
+}

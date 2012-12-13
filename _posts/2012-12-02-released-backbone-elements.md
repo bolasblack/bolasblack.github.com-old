@@ -5,7 +5,6 @@ description: ""
 category: 代码
 tags: [backbone, coffeescript, github]
 ---
-{% include JB/setup %}
 
 算是正式的吧，算是发布吧。搞了一个下午，修了最近发现的一个BUG，写了半天的文档，终于算是完了。
 
