@@ -26,4 +26,4 @@ tags: [python, todoist, GTD, cli]
 
 最近一直想着想搞搞 Clojure-py 呢，一个 Python 的 Clojure 实现，目前还是实验室级别的东西，不过相对于运行在 JVM 的 Clojure 来说，我想大概 Clojure-py 更亲切一点吧……
 
-话说回来 todoistCli 托管在我的 Github 账户上，如果感兴趣的话可以试试 https://github.com/bolasblack/todoistCli
+话说回来 todoistCli 托管在我的 Github 账户上，如果感兴趣的话可以试试 [https://github.com/bolasblack/todoistCli](https://github.com/bolasblack/todoistCli)
