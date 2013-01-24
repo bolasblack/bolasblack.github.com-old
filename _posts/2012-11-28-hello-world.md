@@ -5,7 +5,6 @@ description: ""
 category: ["水"]
 tags: []
 ---
-{% include JB/setup %}
 
 想了不少时间了，终于打算把博客搬到 Github 上，自己就写 Markdown 吧，懒得上 Wordpress 那么麻烦的东西了。
 
